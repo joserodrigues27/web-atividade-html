@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões</title>
+</head>
+<body>
+    <header>
+        <h1>Geometria Analítica e Álgebra Linear</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="matrizes.html">Matrizes</a></li>
+                <li><a href="sugestoes.html">Sugestões</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Envie a sua sugestão:</h2>
+        <p>Preencha o formulário a seguir com a sua sugestão de conteúdo para trazer sobre a disciplina de GAAL (Geometria Analítica e Álgebra Linear).</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome completo" size="47" required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Insira seu email" size="47" required><br><br>
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento"><br><br>
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Matrizes</option>
+                <option>Determinantes</option>
+                <option>Sistemas Lineares</option>
+                <option>Vetores no Plano, no Espaço e Base Canônica</option>
+                <option>Produtos de Vetores</option>
+                <option>Estudo da Reta, do Plano e Distâncias</option>
+                <option>Cônicas</option>
+            </select> <br><br>
+            <label for="sugestao">Sugestão:</label>
+            <textarea id="sugestao" name="sugestao" placeholder="Insira sua sugestão de conteúdo novo" rows="10" cols="35" required></textarea><br><br>
+            <input type="submit" value="Enviar Sugestão">
+        </form>
+    </main>
+</body>
+</html>
